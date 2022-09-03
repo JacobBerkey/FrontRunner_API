@@ -1,6 +1,5 @@
 from django.db import models
 from phonenumber_field.modelfields import PhoneNumberField
-from django.core.validators import validate_slug, validate_email
 from .validators import validate_domainonly_email
 
 
